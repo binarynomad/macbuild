@@ -3,14 +3,14 @@ Playing with automation scripts in a non-MDM environment
 
 
 ```mermaid
-flowchard LR
+flowchard LR;
 
-DEP --|sends serials|--> MDM
+DEP --|sends serials|--> MDM;
 
-MDM --|pushes profiles|-->Laptop
+MDM --|pushes profiles|-->Laptop;
 
-Laptop --|checks|--> Apple
+Laptop --|checks|--> Apple;
 
-Admin --|manages|--> DEP & MDM
+Admin --|manages|--> DEP & MDM;
 
 ```
